@@ -1,0 +1,18 @@
+/* Importação do estilo do cabeçalho */
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #325689 165.37%);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.container__imagem {
+    width: 100px; /* ajuste conforme necessário */
+    height: auto; /* mantém a proporção */
+}
